@@ -4,7 +4,6 @@ import scala.util.Random.nextInt
 enum Suite:
   case Heart, Diamonds, Spades, Clubs
 
-
 def randomSuite = Suite.fromOrdinal(nextInt(4))
 
 enum Rank:
